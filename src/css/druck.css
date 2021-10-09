@@ -1,0 +1,74 @@
+* {
+    background-color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo img {
+    width: 200px;
+}
+
+#header img,
+.blockImg img {
+    border: 2px solid black;
+}
+
+#nav,
+#buchen,
+#footer,
+.dropdown,
+#header,
+.blockButton {
+    display: none;
+}
+
+.blockContent {
+    order: 2;
+}
+
+.blockText {
+    margin: 5px;
+    text-align: justify;
+}
+
+.blockText h1 {
+    font-size: 1.5em;
+}
+
+.blockImg {
+    order: 1;
+    padding: 10px;
+}
+
+.blockImg img {
+    display: block;
+    width: 200px;
+    margin: 5px;
+}
+
+.mainHori .block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainVerti .block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#address {
+    margin-top: 20px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <title>You-Hotels</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" media="screen" title="Web">
+    <link rel="stylesheet" type="text/css" href="src/css/druck.css" media="print">
+</head>
+
+<body onload="drawCircle()">
+    <div id="logo_nav" class="color-primary-3">
+        <div id="logo">
+            <a href="index.html"><img src="src/img/logo.png" alt="logo"></a>
+        </div>
+        <div class="dropdown mobile">
+            <button class="dropbtn color-primary-0">MENÜ</button>
+            <div class="dropdown-content">
+                <a href="sites/Zimmer.html" class="color-primary-2">ZIMMER</a>
+                <a href="sites/essen.html" class="color-primary-2">ESSEN</a>
+                <a href="sites/bar.html" class="color-primary-2">BAR</a>
+                <a href="sites/aktivitaeten.html" class="color-primary-2">AKTIVITÄTEN</a>
+                <a href="sites/buchen.html" class="color-primary-2">BUCHEN</a>
+            </div>
+        </div>
+        <div id="nav" class="desktop">
+            <ul>
+                <li><a href="sites/Zimmer.html" class="color-primary-0">ZIMMER</a></li>
+                <li><a href="sites/essen.html" class="color-primary-0">ESSEN</a></li>
+                <li><a href="sites/bar.html" class="color-primary-0">BAR</a></li>
+                <li><a href="sites/aktivitaeten.html" class="color-primary-0">AKTIVITÄTEN</a></li>
+            </ul>
+        </div>
+        <div id="buchen" class="desktop">
+            <a href="sites/buchen.html" class="color-primary-0">BUCHEN</a>
+        </div>
+    </div>
+    <div id="header">
+        <img src="src/img/title.jpg" alt="title">
+    </div>
+    <div class="mainHori color-primary-0">
+        <div class="block color-primary-1">
+            <div class="blockImg">
+                <img src="src/img/hotel.jpg" alt="Zimmer">
+            </div>
+            <div class="blockContent">
+                <div class="blockText">
+                    <h1>UNSERE ZIMMER</h1>
+                    <p>Lassen Sie Ihren Blick über eine atemberaubende Skyline schweifen. Die erstklassige Eleganz
+                        und Raffinesse, die dem traditionellen Stil des You-Hotels zu eigen ist, spiegelt sich in
+                        jedem einzelnen Zimmer wider.</p>
+                </div>
+                <div class="blockButton">
+                    <a href="sites/Zimmer.html" class="color-primary-0">ZU DEN ZIMMERN</a>
+                </div>
+            </div>
+        </div>
+        <div class="block color-primary-1">
+            <div class="blockContent">
+                <div class="blockText">
+                    <h1>KULINARISCHES</h1>
+                    <p>Das im Erdgeschoss gelegene Restaurant Ambiente lädt Sie dazu ein,
+                        in gemütlicher Atmosphäre Ihr Essen zu genießen. Nationale und internationale Spezialitäten
+                        werden für Sie frisch zubereitet und der Saison angepasst.</p>
+                </div>
+                <div class="blockButton">
+                    <a href="sites/essen.html" class="color-primary-0">ZUM RESTAURANT</a>
+                </div>
+            </div>
+            <div class="blockImg">
+                <img src="src/img/restaurant2.jpg" alt="Teller">
+            </div>
+        </div>
+        <div class="block color-primary-1">
+            <div class="blockImg">
+                <img src="src/img/bar2.jpg" alt="Cocktail">
+            </div>
+            <div class="blockContent">
+                <div class="blockText">
+                    <h1>BAR</h1>
+                    <p>Lassen Sie den Tag in gemütlicher Atmosphäre ausklingen. Unser Barchef freut sich darauf, Sie
+                        mit kreativen Cocktails und erlesenen Weinen zu verwöhnen. Egal ob zum Billiard spielen oder
+                        um gemeinsam den Tag Revue passieren zu lassen- unsere Bar ist der ideale Treffpunkt, um
+                        sich näher kennen zu lernen.</p>
+                </div>
+                <div class="blockButton">
+                    <a href="sites/bar.html" class="color-primary-0">ZUR BAR</a>
+                </div>
+            </div>
+        </div>
+        <div class="block color-primary-1">
+            <div class="blockContent">
+                <div class="blockText">
+                    <h1>AKTIVITÄTEN</h1>
+                    <p>Buchen Sie eine unserer exklusiven Erlebnisse, entworfen von Christoph Hundehege, einem der
+                        weltweit besten Concierges für Luxushotels, oder bereisen Sie selbst die Attraktionen der
+                        Stadt.</p>
+                </div>
+                <div class="blockButton">
+                    <a href="sites/aktivitaeten.html" class="color-primary-0">ZU DEN AKTIVITÄTEN</a>
+                </div>
+            </div>
+            <div class="blockImg">
+                <img src="src/img/theater2.jpg" alt="Theater">
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="color-primary-3">
+        <div id="logoFooter">
+            <canvas id="myCanvas" width="70" height="70"></canvas>
+            <img src="src/img/logo.png" alt="Logo">   
+        </div>
+        <hr />
+        <div id="corporate">
+            <a href="sites/impressum.html">IMPRESSUM</a>
+            <a href="sites/datenschutz.html">DATENSCHUTZ</a>
+        </div>
+        <div id="socialMedia">
+            <ul>
+                <li><a href="https://www.facebook.com"><img src="src/img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com"><img src="src/img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com"><img src="src/img/youtube.png" alt="Youtube"></a></li>
+                <li><a href="https://www.instagram.com"><img src="src/img/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="address" class="druck">
+        <p>You-Hotels GmbH<br />
+            Musterweg 12<br />
+            12345 Musterhausen</p>
+        <p><strong>Vertreten durch:</strong><br />
+            Marco M&uuml;glich</p>
+        <p>Telefon: 01234 / 111333-0<br />
+            E-Mail: info@you-hotels.com<br />
+            Website : www.you-hotels.com</p>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

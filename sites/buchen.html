@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <title>You-Hotels - Buchen</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../src/css/style.css" media="screen" title="Web">
+    <link rel="stylesheet" type="text/css" href="../src/css/druck.css" media="print">
+</head>
+
+<body onload="drawCircle()">
+    <div id="meta_nav" class="color-primary-4 desktop">
+    </div>
+    <div id="logo_nav" class="color-primary-3">
+        <div id="logo">
+            <a href="../index.html"><img src="../src/img/logo.png" alt="logo"></a>
+        </div>
+        <div class="dropdown mobile">
+            <button class="dropbtn color-primary-0">MENÜ</button>
+            <div class="dropdown-content">
+                <a href="../sites/Zimmer.html" class="color-primary-2">ZIMMER</a>
+                <a href="../sites/essen.html" class="color-primary-2">ESSEN</a>
+                <a href="../sites/bar.html" class="color-primary-2">BAR</a>
+                <a href="../sites/aktivitaeten.html" class="color-primary-2">AKTIVITÄTEN</a>
+                <a href="../sites/buchen.html" class="color-primary-2">BUCHEN</a>
+            </div>
+        </div>
+        <div id="nav" class="desktop">
+            <ul>
+                <li><a href="../sites/Zimmer.html" class="color-primary-0">ZIMMER</a></li>
+                <li><a href="../sites/essen.html" class="color-primary-0">ESSEN</a></li>
+                <li><a href="../sites/bar.html" class="color-primary-0">BAR</a></li>
+                <li><a href="../sites/aktivitaeten.html" class="color-primary-0">AKTIVITÄTEN</a></li>
+            </ul>
+        </div>
+        <div id="buchen" class="desktop">
+            <a href="buchen.html" class="color-primary-0">BUCHEN</a>
+        </div>
+    </div>
+    <div class="mainHori color-primary-0">
+        <div class="block color-primary-1">
+            <div class="blockForm">
+                <form>
+                    <div class="formCol">
+                        <h1>DATUM</h1>
+                        <h2>VON</h2>
+                        <input type="date">
+                        <h2>BIS</h2>
+                        <input type="date">
+                    </div>
+                    <div class="formCol">
+                        <h1>NAME</h1>
+                        <input placeholder="Vorname Nachname">
+                    </div>
+                    <div class="formCol">
+                        <h1>EMAIL</h1>
+                        <input type="email">
+                    </div>
+                    <div class="formCol">
+                        <h1>PERSONEN</h1>
+                        <input type="number" placeholder="1" min="1" max="10">
+                    </div>
+                    <div class="formCol">
+                        <h1>ZIMMER</h1>
+                        <select name="zimmer">
+                            <option style="color: grey;">Zimmer wählen</option>
+                            <option>Doppelzimmer</option>
+                            <option>Junior Suite</option>
+                            <option>Luxus Suite</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="formButton">
+                    <a href="../sites/buchen.html">ANFRAGE SENDEN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="color-primary-3">
+        <div id="logoFooter">
+            <canvas id="myCanvas" width="70" height="70"></canvas>
+            <img src="../src/img/logo.png" alt="Logo">
+        </div>
+        <hr />
+        <div id="corporate">
+            <a href="impressum.html">IMPRESSUM</a>
+            <a href="datenschutz.html">DATENSCHUTZ</a>
+        </div>
+        <div id="socialMedia">
+            <ul>
+                <li><a href="https://www.facebook.com"><img src="../src/img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com"><img src="../src/img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com"><img src="../src/img/youtube.png" alt="Youtube"></a></li>
+                <li><a href="https://www.instagram.com"><img src="../src/img/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        <hr />
+    </div>
+    <div id="address" class="druck">
+        <p>You-Hotels GmbH<br />
+            Musterweg 12<br />
+            12345 Musterhausen</p>
+        <p><strong>Vertreten durch:</strong><br />
+            Marco M&uuml;glich</p>
+        <p>Telefon: 01234 / 111333-0<br />
+            E-Mail: info@you-hotels.com<br />
+            Website : www.you-hotels.com</p>
+    </div>
+    <script src="../src/js/script.js"></script>
+</body>
+
+</html>
